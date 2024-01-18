@@ -45,3 +45,30 @@ void updateJoystick() {
   thumbYAxis = analogRead(thumbYPin);
   Joystick.setYAxis(thumbYAxis);
 }
+
+void checkHandleButtons() {
+  for (int button = 0; button < handleButtonCount; button++) {
+    int buttonState = digitalRead(handleButtonMap[button]);
+    if (buttonState != lastButtonState[button]) {
+      Joystick.setButton(handleButtonMap[button], buttonState);
+      lastButtonState[button] = buttonState;
+    }
+  }
+}
+
+void checkThrottleBase() {
+  if (throttleBase.getKeys()) {
+    for (int button = 0; button < baseButtonCount; button++) {
+      if (throttleBase.key[button].stateChanged) {
+        switch (throttleBase.key[button].kstate) {
+          case HOLD:
+            Joystick.setButton(throttleBase.key[button].kchar, 1);
+            break;
+          case IDLE:
+            Joystick.setButton(throttleBase.key[button].kchar, 0);
+            break;
+        }
+      }
+    }
+  }
+}
