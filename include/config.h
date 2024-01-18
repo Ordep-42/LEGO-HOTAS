@@ -9,12 +9,12 @@
 #define ROWS 3
 #define COLS 3
 #define handleButtonCount 2
-#define handleButtons {9, 10}
-#define handleButtonMap {14, 15}
 #define throttlePin A2
 #define thumbXPin A1
 #define thumbYPin A0
 
+const int handleButtonMap[handleButtonCount] = {9, 10};
+const int handleButtonPins[handleButtonCount] = {14, 15};
 int lastButtonState[handleButtonCount];
 
 unsigned int throttleState, thumbXAxis, thumbYAxis;
