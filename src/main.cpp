@@ -1,18 +1,18 @@
-#include <Arduino.h>
+#include "config.h"
 
-// put function declarations here:
-int myFunction(int, int);
+Keypad throttleBase = Keypad(makeKeymap(baseButtonMap), rowPins, colPins, ROWS, COLS);
+
+Joystick_ Joystick(0x03, 0x04,
+                  handleButtonCount + baseButtonCount, 0,
+                  false, false, false,
+                  true, true, false,
+                  false, true,
+                  false, false, false);
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  
 }
