@@ -9,10 +9,39 @@ Joystick_ Joystick(0x03, 0x04,
                   false, true,
                   false, false, false);
 
-void setup() {
+void initJoystick();
+void checkHandleButtons();
+void checkThrottleBase();
+void updateJoystick();
 
+void setup() {
+  initJoystick();
 }
 
 void loop() {
-  
+  updateJoystick();
+  delay(10);
+}
+
+void initJoystick() {
+  Joystick.begin();
+  for (int button = 0; button < handleButtonCount; button++) {
+    pinMode(handleButtonMap[button], INPUT_PULLUP);
+    lastButtonState[button] = 0;
+  }
+  Joystick.setThrottleRange(0, 930);
+}
+
+void updateJoystick() {
+  checkHandleButtons();
+  checkThrottleBase();
+
+  throttleState = analogRead(throttlePin);
+  Joystick.setThrottle(throttleState);
+
+  thumbXAxis = analogRead(thumbXPin);
+  Joystick.setXAxis(thumbXAxis);
+
+  thumbYAxis = analogRead(thumbYPin);
+  Joystick.setYAxis(thumbYAxis);
 }
