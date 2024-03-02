@@ -9,11 +9,6 @@ Joystick_ Joystick(0x03, 0x04,
                   false, true,
                   false, false, false);
 
-void initJoystick();
-void checkHandleButtons();
-void checkThrottleBase();
-void updateJoystick();
-
 void setup() {
   initJoystick();
 }

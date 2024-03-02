@@ -28,4 +28,9 @@ char baseButtonMap[ROWS][COLS] = {
 byte rowPins[ROWS] = {2, 3, 4};
 byte colPins[COLS] = {5, 6, 7};
 
+void initJoystick();
+void updateJoystick();
+void checkHandleButtons();
+void checkThrottleBase();
+
 #endif
