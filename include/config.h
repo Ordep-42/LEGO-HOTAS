@@ -9,7 +9,7 @@
 #define ROWS 3
 #define COLS 3
 #define handleButtonCount 2
-#define throttlePin A2
+#define throttlePin A3
 #define thumbXPin A1
 #define thumbYPin A0
 
