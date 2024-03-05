@@ -390,7 +390,7 @@
     (stroke (width 0) (type default))
     (uuid 0350f768-c77c-475a-abda-ad870d269519)
   )
-  (wire (pts (xy 143.764 57.404) (xy 143.764 67.056))
+  (wire (pts (xy 146.304 57.404) (xy 146.304 67.056))
     (stroke (width 0) (type default))
     (uuid 07c142fc-53f5-4032-bc3b-79c640276eda)
   )
@@ -402,11 +402,7 @@
     (stroke (width 0) (type default))
     (uuid 12650568-3067-4a5b-90c2-60a4f90af666)
   )
-  (wire (pts (xy 151.638 71.12) (xy 129.794 71.12))
-    (stroke (width 0) (type default))
-    (uuid 1a0179bf-c6a8-4e59-b957-468fa00a5175)
-  )
-  (wire (pts (xy 135.89 44.704) (xy 138.43 44.704))
+  (wire (pts (xy 117.094 44.704) (xy 135.89 44.704))
     (stroke (width 0) (type default))
     (uuid 1a2b53a5-dd0b-4896-b9d4-4e0fe6597dae)
   )
@@ -426,7 +422,7 @@
     (stroke (width 0) (type default))
     (uuid 21e67abe-feb6-4e21-9394-b3c644523364)
   )
-  (wire (pts (xy 151.638 57.404) (xy 151.638 71.12))
+  (wire (pts (xy 154.178 57.404) (xy 154.178 71.12))
     (stroke (width 0) (type default))
     (uuid 2475dd4f-e1ad-4e1a-b6e0-18144b5db8b6)
   )
@@ -458,6 +454,10 @@
     (stroke (width 0) (type default))
     (uuid 42752ec4-8bc5-4f2a-ae97-b03ec0785eeb)
   )
+  (wire (pts (xy 135.89 44.704) (xy 140.97 44.704))
+    (stroke (width 0) (type default))
+    (uuid 43d61c72-c220-43f7-9adc-8064600017f4)
+  )
   (wire (pts (xy 121.666 124.46) (xy 135.636 124.46))
     (stroke (width 0) (type default))
     (uuid 498072b9-6b2c-4e14-b7a6-4237f4f85245)
@@ -466,7 +466,7 @@
     (stroke (width 0) (type default))
     (uuid 55b00c0e-7d6e-443a-8cca-fbf05e651159)
   )
-  (wire (pts (xy 119.126 46.736) (xy 138.43 46.736))
+  (wire (pts (xy 119.126 46.736) (xy 140.97 46.736))
     (stroke (width 0) (type default))
     (uuid 64d47336-05b7-4c20-a07b-97b43128263f)
   )
@@ -482,17 +482,13 @@
     (stroke (width 0) (type default))
     (uuid 6d992e57-3b6a-4850-8205-08fe317e2b8d)
   )
-  (wire (pts (xy 147.828 57.404) (xy 147.828 69.088))
+  (wire (pts (xy 150.368 57.404) (xy 150.368 69.088))
     (stroke (width 0) (type default))
     (uuid 6e12c285-cde1-4523-bd93-2e5eb314fec8)
   )
   (wire (pts (xy 131.826 91.44) (xy 131.826 104.14))
     (stroke (width 0) (type default))
     (uuid 748423ed-10b0-4468-8621-aacfcbb68888)
-  )
-  (wire (pts (xy 143.764 67.056) (xy 129.794 67.056))
-    (stroke (width 0) (type default))
-    (uuid 766e3ded-3620-42ad-b7a1-7993460ef59e)
   )
   (wire (pts (xy 145.796 104.14) (xy 145.796 116.84))
     (stroke (width 0) (type default))
@@ -502,6 +498,10 @@
     (stroke (width 0) (type default))
     (uuid 7d259d89-3b30-481a-bd9f-47bc77856606)
   )
+  (wire (pts (xy 129.794 67.056) (xy 146.304 67.056))
+    (stroke (width 0) (type default))
+    (uuid 7ec944bf-0280-465e-b1b1-d6f9c9d1f95a)
+  )
   (wire (pts (xy 121.666 99.06) (xy 135.636 99.06))
     (stroke (width 0) (type default))
     (uuid 86e3464a-c664-4399-b36e-f56380ceb9e4)
@@ -509,6 +509,10 @@
   (wire (pts (xy 135.89 62.738) (xy 135.89 83.312))
     (stroke (width 0) (type default))
     (uuid 86f557f6-d555-4e38-87a6-bdb282f59fcd)
+  )
+  (wire (pts (xy 129.794 71.12) (xy 154.178 71.12))
+    (stroke (width 0) (type default))
+    (uuid 8a0d86bd-980d-43c6-b791-e86620defd35)
   )
   (wire (pts (xy 131.826 91.44) (xy 131.826 85.344))
     (stroke (width 0) (type default))
@@ -518,13 +522,9 @@
     (stroke (width 0) (type default))
     (uuid 8e1aadab-7045-4316-8225-82a5cff17f02)
   )
-  (wire (pts (xy 147.828 69.088) (xy 129.794 69.088))
+  (wire (pts (xy 129.794 69.088) (xy 150.368 69.088))
     (stroke (width 0) (type default))
-    (uuid 91cc80b6-4710-45bc-a0cb-92b8889c3efc)
-  )
-  (wire (pts (xy 117.094 44.704) (xy 135.89 44.704))
-    (stroke (width 0) (type default))
-    (uuid 989b30ca-4863-4eb8-a39e-0925c7600644)
+    (uuid 92ad7c94-1f15-4954-b9f9-99b1b47d06df)
   )
   (wire (pts (xy 119.126 83.312) (xy 135.89 83.312))
     (stroke (width 0) (type default))
@@ -607,7 +607,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 140.716 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01230ca3-b462-4bab-b391-8a0377970cbb)
-    (property "Reference" "SW3" (at 140.716 87.63 0)
+    (property "Reference" "Btn3" (at 140.716 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 140.716 87.63 0)
@@ -624,7 +624,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW3") (unit 1)
+          (reference "Btn3") (unit 1)
         )
       )
     )
@@ -729,7 +729,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 112.776 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0debf03e-2d06-4b82-bce3-b40551e746f5)
-    (property "Reference" "SW7" (at 112.776 113.03 0)
+    (property "Reference" "Btn7" (at 112.776 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 112.776 113.03 0)
@@ -746,7 +746,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW7") (unit 1)
+          (reference "Btn7") (unit 1)
         )
       )
     )
@@ -787,7 +787,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 112.776 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17f79ae3-6f64-4b1d-87cf-adfcc95e8658)
-    (property "Reference" "SW4" (at 112.776 100.33 0)
+    (property "Reference" "Btn4" (at 112.776 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 112.776 100.33 0)
@@ -804,7 +804,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW4") (unit 1)
+          (reference "Btn4") (unit 1)
         )
       )
     )
@@ -813,7 +813,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 126.746 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a545e55-d9e0-414d-932e-6fd70503e0e1)
-    (property "Reference" "SW5" (at 126.746 100.33 0)
+    (property "Reference" "Btn5" (at 126.746 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 126.746 100.33 0)
@@ -830,7 +830,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW5") (unit 1)
+          (reference "Btn5") (unit 1)
         )
       )
     )
@@ -884,19 +884,19 @@
     )
   )
 
-  (symbol (lib_id "HumanInterface:Joystick") (at 147.828 48.768 0) (unit 1)
+  (symbol (lib_id "HumanInterface:Joystick") (at 150.368 48.768 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33210093-925d-4b52-ad19-f0338d21bf78)
-    (property "Reference" "Joystick1" (at 155.448 48.768 0)
+    (property "Reference" "Thumbstick" (at 158.75 48.768 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (at 147.828 48.768 0)
+    (property "Value" "~" (at 150.368 48.768 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.828 48.768 0)
+    (property "Footprint" "" (at 150.368 48.768 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 147.828 48.768 0)
+    (property "Datasheet" "" (at 150.368 48.768 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid b5fe9cd5-aa07-4799-843a-243a4b8bce42))
@@ -907,7 +907,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "Joystick1") (unit 1)
+          (reference "Thumbstick") (unit 1)
         )
       )
     )
@@ -916,7 +916,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 112.776 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 359136a8-f967-4f23-a0fe-d2e642484e57)
-    (property "Reference" "SW1" (at 112.776 87.63 0)
+    (property "Reference" "Btn1" (at 112.776 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 112.776 87.63 0)
@@ -933,7 +933,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW1") (unit 1)
+          (reference "Btn1") (unit 1)
         )
       )
     )
@@ -1006,7 +1006,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 126.746 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 444ef989-8441-4731-a82b-9e8d7c6844bd)
-    (property "Reference" "SW2" (at 126.746 87.63 0)
+    (property "Reference" "Btn2" (at 126.746 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 126.746 87.63 0)
@@ -1023,7 +1023,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW2") (unit 1)
+          (reference "Btn2") (unit 1)
         )
       )
     )
@@ -1096,7 +1096,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 135.89 58.928 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d72c306-4455-4869-b57b-ae35559a52f2)
-    (property "Reference" "RV1" (at 138.43 58.928 0)
+    (property "Reference" "Throttle" (at 138.43 58.928 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_Potentiometer" (at 139.7 58.928 90)
@@ -1114,7 +1114,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "RV1") (unit 1)
+          (reference "Throttle") (unit 1)
         )
       )
     )
@@ -1123,7 +1123,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 140.208 78.232 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6eac1b2e-1090-4293-a831-02d20f5161df)
-    (property "Reference" "SW10" (at 143.764 78.232 90)
+    (property "Reference" "Btn10" (at 143.51 78.232 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_SPST" (at 144.018 78.232 0)
@@ -1140,7 +1140,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW10") (unit 1)
+          (reference "Btn10") (unit 1)
         )
       )
     )
@@ -1149,7 +1149,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 140.716 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ef3c76a-4839-4b22-9ae8-1c84ee92299a)
-    (property "Reference" "SW9" (at 140.716 113.03 0)
+    (property "Reference" "Btn9" (at 140.716 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 140.716 113.03 0)
@@ -1166,7 +1166,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW9") (unit 1)
+          (reference "Btn9") (unit 1)
         )
       )
     )
@@ -1207,7 +1207,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 140.716 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab006a4f-8f01-464f-82a2-1f9d056b2ac1)
-    (property "Reference" "SW6" (at 140.716 100.33 0)
+    (property "Reference" "Btn6" (at 140.716 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 140.716 100.33 0)
@@ -1224,7 +1224,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW6") (unit 1)
+          (reference "Btn6") (unit 1)
         )
       )
     )
@@ -1233,7 +1233,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 126.746 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6fdc63e-a74e-41e8-9882-a1011d2d28d2)
-    (property "Reference" "SW8" (at 126.746 113.03 0)
+    (property "Reference" "Btn8" (at 126.746 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 126.746 113.03 0)
@@ -1250,7 +1250,7 @@
     (instances
       (project "Hotas-Schema"
         (path "/754fa901-14b3-4c66-8cc0-b832b5d65ab2"
-          (reference "SW8") (unit 1)
+          (reference "Btn8") (unit 1)
         )
       )
     )
