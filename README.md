@@ -18,7 +18,10 @@ Since It's a kind of official Arduino model, it has all the benefits of the Ardu
 
 So, now that theres a MCU platform to use, time to choose what features shall this HOTAS have. Well, the first part is obviously a throttle. Here we have two options, using potentiometers or hall-effect sensors, each has their pros and cons. In this project I used potentiometers because they're readly available and I had plenty of them already on-hand, specifically rotary potentiometers (Theres also the option of using sliding potentiometers, but I only had rotaries on-hand).
 
-I also wanted to have some kind of thumbstick...
+I also wanted to have some kind of thumbstick, so I got one of those joystick modules, because They were the cheapest I could find. It works on 5V and has a button, like on a XBOX or Playstation gamepad, so thats a plus. Now I have one button and three axis, one from the throttle and two from the thumbstick, I still wanted at least one or two more buttons directly on the throttle handle itself, and some other buttons on the base of the throttle.
+
+In the end I went with a 3x3 button matrix on the base of the throttle, which gives me 9 buttons, and thats plenty for my use case (mainly arcade games and some simulators) while costing only 6 pins on the Pro Micro.
 
 ### Step 3: Build an enclosure and a handle for the main throttle
 
+Normally what you would see here is some complex 3D printing or models and maybe some woodworking or metalworkorking. But, I don't have access to a 3D printer, neither had a way to do woodworking nor metalworking, so I had to do with what I have, in this case, LEGO pieces from my childhood.
