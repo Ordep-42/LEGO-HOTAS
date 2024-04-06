@@ -30,5 +30,10 @@ First I built a handle for the throttle, I tried to the best I could to copy the
 
 [WIP]
 
-### Setp 4: Develop the code
+### Step 4: Design the electronics
+[WIP]
+
+![Electric Schematic](assets/Hotas-Schema/Schema.png)
+
+### Step 5: Develop the code
 [WIP]
