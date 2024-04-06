@@ -25,3 +25,10 @@ In the end I went with a 3x3 button matrix on the base of the throttle, which gi
 ### Step 3: Build an enclosure and a handle for the main throttle
 
 Normally what you would see here is some complex 3D printing or models and maybe some woodworking or metalworkorking. But, I don't have access to a 3D printer, neither had a way to do woodworking nor metalworking, so I had to do with what I have, in this case, LEGO pieces from my childhood.
+
+First I built a handle for the throttle, I tried to the best I could to copy the design of the F-14/F-18 throttle handles, for that I used some LEGO Technic pieces and plates to get something similar in shape to the aforementioned throttle handles. In the first prototype of this project the handle itself didn't move in relation to the throttle lever, but I'm going to use it on top of my desk, so when at full throttle my hand stays in on top of the handle in a way that isn't very ergonomic nor natural, so I modified the way the handle mounts to the lever, which enables it to rotate up a bit, just enough so my hand isn't being awkwardly stretched.
+
+[WIP]
+
+### Setp 4: Develop the code
+[WIP]
