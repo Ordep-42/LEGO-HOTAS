@@ -56,7 +56,7 @@ void checkThrottleBase() {
     for (int button = 0; button < baseButtonCount; button++) {
       if (throttleBase.key[button].stateChanged) {
         switch (throttleBase.key[button].kstate) {
-          case HOLD:
+          case PRESSED:
             Joystick.setButton(throttleBase.key[button].kchar, 1);
             break;
           case IDLE:
